@@ -5,7 +5,7 @@ import Utils.Utils;
 public class ReverseCharacters {
     public static void main(String[] args) {
 
-        System.out.println("Introdu cuvinte");
+        System.out.println("Introdu un cuvant: ");
         StringBuilder x = new StringBuilder();
 //        Scanner scanner = new Scanner(System.in);
 

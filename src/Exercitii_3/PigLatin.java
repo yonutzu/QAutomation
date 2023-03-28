@@ -20,7 +20,7 @@ public static boolean verificareVocala (char vocala) {
 }
 public static String findPigLatin (String cuvant){
         if (verificareVocala(cuvant.charAt(0))|| cuvant.substring(0,2).equals("xr") || cuvant.substring(0,2).equals("yt")){
-            return "ay";
+            return cuvant +"ay";
         }else {
             int pozitieCaracter = 0;
             for (int i = 1; i < cuvant.length(); i++){
